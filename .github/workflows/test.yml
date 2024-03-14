@@ -91,7 +91,7 @@ jobs:
         uses: ./compliance-action
         with:
           cydigConfigPath: ${{ github.workspace }}/compliance-action/src/cydigConfig.json
-          PAT-token: ${{ secrets.MY_GITHUB_PAT }}
+          PAT-token: ${{ secrets.GITHUB_TOKEN }}
           accessTokenAzureDevOps: ${{ secrets.DEVOPS_TOKEN_WORK_ITEMS }}
 
       - name: Set dev func URL
