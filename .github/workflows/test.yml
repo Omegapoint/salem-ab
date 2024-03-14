@@ -15,7 +15,8 @@ jobs:
       - name: Checkout Upload action
         uses: actions/checkout@v4
         with:
-          repository: Omegapoint/cydig-upload-compliance-action@feature/CodeQLControl
+          repository: Omegapoint/cydig-upload-compliance-action
+          ref: feature/CodeQLControl
           path: upload-action
       - name: Checkout Azure compliance action
         uses: actions/checkout@v4
