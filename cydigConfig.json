@@ -1,0 +1,24 @@
+{
+  "teamName": "CyDig",
+  "usingAzure": true,
+  "threatModeling": {
+    "date": "2024-02-02",
+    "boardsTag": "TM"
+  },
+  "pentest": {
+    "date": "2023-10-09",
+    "boardsTag": "PT"
+  },
+  "azureDevOps": {
+    "usingBoards": false
+  },
+  "scaTool": {
+    "nameOfTool": "Dependabot"
+  },
+  "sastTool": {
+    "nameOfTool": "CodeQL"
+  },
+  "codeQualityTool": {
+    "nameOfTool": "not specified"
+  }
+}
