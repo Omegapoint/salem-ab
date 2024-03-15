@@ -4,7 +4,7 @@ permissions:
   contents: read
   pages: read
   id-token: write
-  security-events: read
+  security-events: write
 
 on:
   workflow_dispatch:
@@ -95,7 +95,7 @@ jobs:
         uses: ./compliance-action
         with:
           cydigConfigPath: ${{ github.workspace }}/cydigConfig.json
-          PAT-token: ${{ secrets.REPO_SCOPE }}
+          PAT-token: ${{ secrets.GITHUB_TOKEN }}
           accessTokenAzureDevOps: ${{ secrets.DEVOPS_TOKEN_WORK_ITEMS }}
 
       - name: Set dev func URL
