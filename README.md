@@ -3,7 +3,7 @@
 Used for testing cydig upload compliance state flow. Can be deleted whenever.
 
 [![OP Compliance Dashboard](https://img.shields.io/badge/OP%20Compliance%20Dashboard-click%20here-blue)](***cydig)<br/><br/>
-![Timestamp](https://img.shields.io/endpoint?url=https%3A%2F%2Ffunc-cydig-badge-service-dev.azurewebsites.net%2Fapi%2Fteams%2FCyDig%2Fsources%2FGitHub%2Fprojects%2FCyDig%2Frepositories%2Fsalem-ab%2Fcontrols%2Ftimestamp%3Fcode%3DzaEvcWCPK01y2Z6SBivwOKndN4w915lpOTt1VkmULg3xgsjkml7u8DOhgULzmAPY)<br/><br/>
+![Timestamp](https://img.shields.io/endpoint?url=https%3A%2F%2Ffunc-cydig-badge-service-dev.azurewebsites.net%2Fapi%2Fteams%2FCyDig%2Fsources%2FGitHub%2Fprojects%2Fnot-specified%2Frepositories%2Fsalem-ab%2Fcontrols%2Ftimestamp%3Fcode%3DzaEvcWCPK01y2Z6SBivwOKndN4w915lpOTt1VkmULg3xgsjkml7u8DOhgULzmAPY)<br/><br/>
 ![threatModelingDate](https://img.shields.io/endpoint?url=https%3A%2F%2Ffunc-cydig-badge-service-dev.azurewebsites.net%2Fapi%2Fteams%2FCyDig%2Fsources%2FGitHub%2Fprojects%2FCyDig%2Frepositories%2Fsalem-ab%2Fcontrols%2FthreatModelingDate%3Fcode%3DzaEvcWCPK01y2Z6SBivwOKndN4w915lpOTt1VkmULg3xgsjkml7u8DOhgULzmAPY)<br/>
 ![numberOfReviewers](https://img.shields.io/endpoint?url=https%3A%2F%2Ffunc-cydig-badge-service-dev.azurewebsites.net%2Fapi%2Fteams%2FCyDig%2Fsources%2FGitHub%2Fprojects%2FCyDig%2Frepositories%2Fsalem-ab%2Fcontrols%2FnumberOfReviewers%3Fcode%3DzaEvcWCPK01y2Z6SBivwOKndN4w915lpOTt1VkmULg3xgsjkml7u8DOhgULzmAPY)<br/>
 ![scaTool](https://img.shields.io/endpoint?url=https%3A%2F%2Ffunc-cydig-badge-service-dev.azurewebsites.net%2Fapi%2Fteams%2FCyDig%2Fsources%2FGitHub%2Fprojects%2FCyDig%2Frepositories%2Fsalem-ab%2Fcontrols%2FscaTool%3Fcode%3DzaEvcWCPK01y2Z6SBivwOKndN4w915lpOTt1VkmULg3xgsjkml7u8DOhgULzmAPY)<br/>
