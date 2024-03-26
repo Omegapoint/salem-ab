@@ -16,7 +16,7 @@
     "nameOfTool": "Dependabot"
   },
   "sastTool": {
-    "nameOfTool": "CodeQL"
+    "nameOfTool": "SEMGREP"
   },
   "codeQualityTool": {
     "nameOfTool": "not specified"
