@@ -16,7 +16,7 @@
     "nameOfTool": "Dependabot"
   },
   "sastTool": {
-    "nameOfTool": "CodeQL"
+    "nameOfTool": ""
   },
   "codeQualityTool": {
     "nameOfTool": "not specified"
