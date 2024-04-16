@@ -30,7 +30,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: Omegapoint/cydig-compliance-action
-          ref: feature/secret-scanning-control
+          ref: fix-error-log
           path: compliance-action
 
       - name: Setup node
