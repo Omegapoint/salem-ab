@@ -19,6 +19,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: Omegapoint/cydig-upload-compliance-action
+          ref: feature/identitiesInCode
           path: upload-action
       - name: Checkout Azure compliance action
         uses: actions/checkout@v4
@@ -29,7 +30,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: Omegapoint/cydig-compliance-action
-          ref: exp/refactor
+          ref: feature/identityInRepo
           path: compliance-action
 
       - name: Setup node
