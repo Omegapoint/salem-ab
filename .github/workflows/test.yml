@@ -29,7 +29,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: Omegapoint/cydig-compliance-action
-          ref: handle-sast-tool-not-found
           path: compliance-action
 
       - name: Setup node
