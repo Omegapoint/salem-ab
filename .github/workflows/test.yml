@@ -1,10 +1,11 @@
 name: Test all actions
 run-name: ${{ github.actor }} is running tests
 permissions:
-  contents: read
-  pages: read
-  id-token: write
-  security-events: write
+  read-all
+  #contents: read
+  #pages: read
+  #id-token: write
+  #security-events: write
 
 on:
   workflow_dispatch:
