@@ -15,16 +15,19 @@ jobs:
     steps:
       - name: Checkout Upload action
         uses: actions/checkout@v4
+        
       - name: Checkout Upload action
         uses: actions/checkout@v4
         with:
           repository: Omegapoint/cydig-upload-compliance-action
           path: upload-action
+          
       - name: Checkout Azure compliance action
         uses: actions/checkout@v4
         with:
           repository: Omegapoint/cydig-azure-compliance-action
           path: azure-compliance-action
+          
       - name: Checkout compliance action
         uses: actions/checkout@v4
         with:
@@ -93,7 +96,7 @@ jobs:
         uses: ./compliance-action
         with:
           cydigConfigPath: ${{ github.workspace }}/cydigConfig.json
-          PAT-token: ${{ secrets.REPO_SCOPE }}
+          PAT-token: ${{ secrets.GITHUB_TOKEN }}
           accessTokenAzureDevOps: ${{ secrets.DEVOPS_TOKEN_WORK_ITEMS }}
 
       - name: Set dev func URL
