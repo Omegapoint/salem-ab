@@ -1,7 +1,7 @@
 name: Test all actions
 run-name: ${{ github.actor }} is running tests
 permissions:
-  read-all
+  write-all
   #contents: read
   #pages: read
   #id-token: write
