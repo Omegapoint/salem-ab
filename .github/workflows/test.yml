@@ -1,11 +1,10 @@
 name: Test all actions
 run-name: ${{ github.actor }} is running tests
 permissions:
-  write-all
-  #contents: read
-  #pages: read
-  #id-token: write
-  #security-events: write
+  contents: read
+  pages: read
+  id-token: write
+  security-events: write
 
 on:
   workflow_dispatch:
@@ -97,7 +96,7 @@ jobs:
         uses: ./compliance-action
         with:
           cydigConfigPath: ${{ github.workspace }}/cydigConfig.json
-          PAT-token: ${{ secrets.GITHUB_TOKEN }}
+          PAT-token: ${{ secrets.REPO_SCOPE }}
           accessTokenAzureDevOps: ${{ secrets.DEVOPS_TOKEN_WORK_ITEMS }}
 
       - name: Set dev func URL
