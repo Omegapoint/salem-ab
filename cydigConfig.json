@@ -10,7 +10,7 @@
     "boardsTag": "PT"
   },
   "secretScanningTool": {
-    "nameOfTool": "Github Secret Scanning"
+    "nameOfTool": "GithubSecretScanning"
   },
   "azureDevOps": {
     "usingBoards": false
