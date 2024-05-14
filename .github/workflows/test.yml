@@ -32,7 +32,6 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: Omegapoint/cydig-compliance-action
-          ref: error-log
           path: compliance-action
 
       - name: Setup node
